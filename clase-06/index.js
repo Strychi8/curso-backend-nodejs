@@ -1,0 +1,54 @@
+function asyncTask (callback) {
+    setTimeout(() => {
+       console.log("Tarea asincronica completada 1")
+       callback() 
+    }, 3000);
+}
+
+console.log("Inicio de la tarea") // Entra en la call stack
+
+asyncTask(() => {
+    console.log("Fin de la tarea")
+})
+
+function taskAsync( ) {
+    return new Promise((res, rej) => {
+        setTimeout(() => {
+            if (Math.random() < 0.5){
+                res("Tarea asincronica completada 2")
+            }else {
+                rej(new Error("Tarea asincronica fallida"))
+            }
+        }, 2000)
+    })
+}
+/*
+const result = taskAsync()
+console.log(result)*/
+
+
+async function executeAsyncTask () {
+    console.log("Inicio de la tarea async/await")
+    try{
+        const result2 = await taskAsync()
+        console.log(result2)
+    }catch(error){
+        console.log(error)
+    } finally {
+        console.log("Fin de la tarea async/await")
+    }
+}
+
+executeAsyncTask()
+
+console.log("Inicio de la promesa")
+
+taskAsync().then((resultado) => {
+    console.log(resultado)
+}).catch((error) => {
+    console.log(error)
+}).finally(() => {
+    console.log("Fin de la promesa")
+})
+
+console.log("Codigo por fuera de la promesa")
