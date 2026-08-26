@@ -1,0 +1,130 @@
+[
+  {
+    "id": "1",
+    "name": "Mouse Gamer",
+    "price": 40000,
+    "category": "perifericos",
+    "stock": 10,
+    "description": "Mouse óptico 16000 DPI"
+  },
+  {
+    "id": "2",
+    "name": "Monitor 24'",
+    "price": 180000,
+    "category": "monitores",
+    "stock": 5,
+    "description": "Monitor IPS 144Hz"
+  },
+  {
+    "id": "3",
+    "name": "Auriculares 7.1",
+    "price": 35000,
+    "category": "audio",
+    "stock": 8,
+    "description": "Sonido envolvente"
+  },
+  {
+    "id": "4",
+    "name": "Teclado Mecánico RGB",
+    "price": 45000,
+    "category": "perifericos",
+    "stock": 15,
+    "description": "Teclado gamer con switches azules"
+  },
+  {
+    "id": "5",
+    "name": "Silla Gamer Ergonómica",
+    "price": 120000,
+    "category": "muebles",
+    "stock": 4,
+    "description": "Silla con soporte lumbar y cervical"
+  },
+  {
+    "id": "6",
+    "name": "Webcam Full HD 1080p",
+    "price": 35000,
+    "category": "perifericos",
+    "stock": 20,
+    "description": "Webcam con micrófono integrado"
+  },
+  {
+    "id": "7",
+    "name": "Placa de Video RTX 3060",
+    "price": 450000,
+    "category": "hardware",
+    "stock": 3,
+    "description": "Placa de video de alta gama"
+  },
+  {
+    "id": "8",
+    "name": "Procesador Intel i7",
+    "price": 380000,
+    "category": "hardware",
+    "stock": 6,
+    "description": "Procesador de 12va generación"
+  },
+  {
+    "id": "9",
+    "name": "Disco SSD 1TB NVMe",
+    "price": 65000,
+    "category": "hardware",
+    "stock": 25,
+    "description": "Almacenamiento ultra rápido"
+  },
+  {
+    "id": "11",
+    "name": "Gabinete ATX Vidrio",
+    "price": 55000,
+    "category": "hardware",
+    "stock": 10,
+    "description": "Gabinete con panel lateral de vidrio templado"
+  },
+  {
+    "id": "12",
+    "name": "Router WiFi 6",
+    "price": 42000,
+    "category": "redes",
+    "stock": 18,
+    "description": "Router de alta velocidad"
+  },
+  {
+    "id": "13",
+    "name": "Parlantes 2.1 Bluetooth",
+    "price": 28000,
+    "category": "audio",
+    "stock": 9,
+    "description": "Sistema de audio inalámbrico"
+  },
+  {
+    "id": "14",
+    "name": "Micrófono Condensador",
+    "price": 48000,
+    "category": "audio",
+    "stock": 7,
+    "description": "Micrófono ideal para streaming"
+  },
+  {
+    "id": "15",
+    "name": "Teclado Mecánico Pro",
+    "price": 49000,
+    "category": "perifericos",
+    "stock": 12,
+    "description": "Teclado gamer con switches azules y luces RGB custom"
+  },
+  {
+    "id": "10",
+    "name": "Teclado Mecánico RGB",
+    "price": 45000,
+    "category": "perifericos",
+    "stock": 15,
+    "description": "Teclado gamer con switches azules"
+  },
+  {
+    "id": "1782834461698",
+    "name": "Teclado Mecánico RGB",
+    "price": 45000,
+    "category": "perifericos",
+    "stock": 15,
+    "description": "Teclado gamer con switches azules"
+  }
+]
