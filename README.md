@@ -74,7 +74,6 @@ El repositorio se organiza por clases:
 curso-backend-nodejs/
 
 - repaso-JS/
-- clase-01/
 - clase-02/
 - clase-03/
 - clase-04/
@@ -85,7 +84,9 @@ curso-backend-nodejs/
 - clase-09/
 - clase-10/
 - clase-11/
-- clase-12/
+- clase-12-13/
+- clase-14
+- clase-15
 
 ## Cada carpeta contiene:
 
